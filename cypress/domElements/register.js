@@ -13,9 +13,7 @@ export const registerDom =
         emailInput : "#email-signup",
         fnInput : "#firstName-signup",
         lnInput : "#lastName-signup",
-        invalidNamePrompt : "",
         passInput:"#password-signup",
-        invalidPassPrompt :"",
         submitBtn: "[data-test=signup-submit-button]"
     }
 }
