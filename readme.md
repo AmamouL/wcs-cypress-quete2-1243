@@ -3,6 +3,7 @@
 **author : Sylvain Viole**
 
 ---
+<<<<<<< HEAD
 
 This test suite challenges preprod.blackmarket register page on basic scenarios for log in and signup.
 
@@ -26,6 +27,24 @@ Scenarios are written in Gherkins in `.feature`  files.
 Test scripts are in corresponding sub-folders.
 Common part of test scripts are in the `common` folder.
 ---
+=======
+This test suite challenges preprod.blackmarket register page on basic scenarios for log in and signup.
+---
+## Dependencies : ##
+|Dependency|version|
+|:-|:-|
+|Cypress|`7.1.0`|
+|Cypress-cucumber-preprocessor| `4.0.3`|
+|faker| `5.5.3`|
+---
+
+Scenarios are written in Gherkins in `.feature`  files.
+
+Test scripts are in corresponding sub-folders.
+Common part of test scripts are in the `common` folder.
+
+---
+>>>>>>> 3aedd1f8a6a7590bfeef6568885d081ebb4cffb5
 ## How to : ##
 
 ```
