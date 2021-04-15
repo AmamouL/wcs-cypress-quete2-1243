@@ -1,4 +1,5 @@
-# This repo hosts a Cypress project for Wild Code School #
+# This repo hosts a Cypress project for Wild Code School # 
+![example workflow](https://github.com/sylvain-viole/wcs-cypress-quete2-1243/actions/workflows/main.yml/badge.svg)
 
 **author : Sylvain Viole**
 
