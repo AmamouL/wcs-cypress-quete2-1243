@@ -35,5 +35,10 @@ npm install
 npm run cy:run
 ```
 
+You can either chose to run :
+- login test : `npm run cy:run:login`
+or
+- signup tests : `npm run cy:run:signup`
+
  
 

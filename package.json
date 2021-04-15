@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:rec": "cypress run --record --key 19d64058-7615-4ff2-b30c-664b50855427"
+    "cy:run:login": "cypress run -s 'cypress/integration/connection/login.feature'",
+    "cy:run:signup": "cypress run -s 'cypress/integration/connection/signup.feature'"
   },
   "author": "Sylvain Viole",
   "license": "MIT",
