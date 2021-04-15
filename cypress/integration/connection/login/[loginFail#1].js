@@ -9,7 +9,6 @@ const passInput = registerDom.login.passInput;
 const submitLoginBtn = registerDom.login.submitBtn;
 const emailInput = registerDom.login.emailInput;
 const invalidEmailPrompt = registerDom.login.invalidEmailPrompt;
-const invalidCredentialsPrompt = registerDom.login.invalidCredentialsPrompt;
 
 And("email is not valid", () => {
     cy.get(emailInput).type("wrongMail");
