@@ -1,6 +1,4 @@
-Feature: sign up failure
-
-  I can't sign in
+Feature: Sign up
 
   Scenario: [signupFailure#1] signup fails on empty email
     Given a visitor on the register page
@@ -25,5 +23,11 @@ Feature: sign up failure
     And signup form is valid
     When he changes password to an invalid format
     Then he should be prompted "Merci de saisir un mot de passe valide." under password field
-    
+
+
+  Scenario: [signupSuccess#1] signup is successfull
+    Given a visitor on the register page
+    And signup form is valid
+    When he signs up
+    Then he should be signed up
     

@@ -8,6 +8,14 @@ const fnInput = registerDom.signup.fnInput;
 const lnInput = registerDom.signup.lnInput;
 const submitBtn = registerDom.signup.submitBtn;
 
+When("he empties ln field", () => {
+    cy.get(lnInput).clear();
+});
+
+When("he empties fn field", () => {
+    cy.get(fnInput).clear();
+});
+
 Then("he should be prompted {string} under Name field", (value) => {
     if(value.includes('Prénom')) {
         cy.get(fnInput).parentsUntil("[data-test=group]").next().find("li").should("contain.text", value);

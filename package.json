@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "cy:rec": "cypress run --record --key 19d64058-7615-4ff2-b30c-664b50855427"
   },
   "author": "Sylvain Viole",
   "license": "MIT",
   "devDependencies": {
     "cypress": "^7.1.0",
-    "cypress-cucumber-preprocessor": "^4.0.3"
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "faker": "^5.5.3"
   },
   "cypress-cucumber-preprocessor": {
-  "nonGlobalStepDefinitions": true
-}
+    "nonGlobalStepDefinitions": true
+  }
 }

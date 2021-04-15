@@ -8,6 +8,10 @@ const fnInput = registerDom.signup.fnInput;
 const lnInput = registerDom.signup.lnInput;
 const submitBtn = registerDom.signup.submitBtn;
 
+When("he empties email field", () => {
+    cy.get(emailInput).clear();
+});
+
 Then("he should be prompted {string} under Email field", (value) => {
     cy.get(emailInput).parent().next().find("li").should('contain.text', value)
     cy.get(emailInput).parent().should('have.class', 'input-error')
