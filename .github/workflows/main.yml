@@ -29,4 +29,4 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: test
-        run: ./node_modules/.bin/cypress run --record --key $CYPRESS_DASHBOARD_KEY
+        run: ./node_modules/.bin/cypress run --record --key ${{ secrets.CYPRESS_DASHBOARD_KEY }}
