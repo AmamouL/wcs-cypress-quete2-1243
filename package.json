@@ -6,7 +6,6 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:run:login": "cypress run -s 'cypress/integration/connection/login.feature'",
     "cy:run:signup": "cypress run -s 'cypress/integration/connection/signup.feature'"
   },
   "author": "Sylvain Viole",
