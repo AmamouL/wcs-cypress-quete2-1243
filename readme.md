@@ -7,6 +7,8 @@
 
 This test suite challenges preprod.blackmarket register page on basic scenarios for log in and signup.
 
+Basic `Page Object Model` and `OOP`is implemented to handle SignupForm, User and Wait.
+
 ---
 
 ## CI Actions : ##
@@ -36,10 +38,6 @@ npm install
 npm run cy:run
 ```
 
-You can either chose to run :
-- login test : `npm run cy:run:login`
-or
-- signup tests : `npm run cy:run:signup`
 
  
 

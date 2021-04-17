@@ -22,7 +22,7 @@ Feature: Sign up
     And signup form is valid
     When he changes password to an invalid format
     Then he should be prompted "Merci de saisir un mot de passe valide." under password field
-@focus 
+
   Scenario: [signupFailure#5] signup fails on taken email
     And signup form is valid
     And Email is already used
