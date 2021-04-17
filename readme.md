@@ -26,8 +26,8 @@ Tests are automatically launched at each push
 ---
 Scenarios are written in Gherkins in `.feature`  files.
 
-Test scripts are in corresponding sub-folders.
-Common part of test scripts are in the `common` folder.
+Test scripts are in the corresponding folder.
+
 ---
 ## How to : ##
 
