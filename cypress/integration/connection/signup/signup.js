@@ -1,12 +1,12 @@
 import { When, Then, Before, And } from "cypress-cucumber-preprocessor/steps";
 import { SignupForm } from "../../../../Pom/SignupForm";
-import { User } from "../../../assets/User";
 import { Waiter } from "../../../assets/wait";
+import { User } from "../../../fixtures/User";
 const faker = require("faker");
 
 const url = "https://preprod.backmarket.fr/register";
 const signupForm = new SignupForm();
-const user = new User();
+const user = new User()
 const newUser = new User();
 const wait = new Waiter();
 

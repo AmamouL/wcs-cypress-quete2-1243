@@ -4,6 +4,5 @@
 /cypress/screenshots
 /cypress/videos
 /cypress/plugins
-/cypress/fixtures
 cypress.env.json
 /.vscode
